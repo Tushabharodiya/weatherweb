@@ -1,0 +1,130 @@
+:root {
+    --primary: #0f1111;
+    --balck: #000000;
+    --white: #ffffff;
+    --p-color:#565959;
+    --btn-color: #CC0C39;
+    --a-color: #007185;
+    --background-color: #bbbfbf;
+    --fot-text: #DDD;
+    --bg-color: #E3E6E6;
+}
+/* =============components============= */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto';
+}
+.row{
+    --bs-gutter-x: 20px;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* ============haeder============ */
+header .head-info h2{
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+header .head-info ul li a{
+    color: var(--primary);
+    font-size: 16px;
+    padding: 0 10px;
+}
+header input{
+    box-shadow: 0px 2px 3px gray;
+}
+header  form button{
+    background-color: transparent;
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 10px;
+    padding: 12px 10px;
+}
+/* ================banner============= */
+.banner{
+    height: 100vh;
+    background-image: url(../images/mountains.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-blend-mode: var(--a-color);
+}
+.banner .row{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+.banner .card{
+    box-shadow: 0px 3px 15px gray;
+}
+.banner .banner-data h2{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 20px;
+    text-shadow: 0px 3px 10px gray;
+}
+.banner .banner-card h3{
+    font-size: 20px;
+    padding: 10px 0;
+    background-color: rgb(188, 184, 184);
+    color: var(--white);
+}
+.banner .card-info p{
+    margin-bottom: 10px;
+}
+.banner .card-info button{
+    margin: 0px 10px 10px 10px;
+    display: inline-block;
+    width: 90%; 
+    padding: 5px 0;
+    border: 2px solid rgb(188, 184, 184);
+    border-radius: 5px;
+    color: rgb(188, 184, 184);
+    color: var(--primary);
+}
+.banner .banner-head h2{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 10px;
+    font-size: 30px;
+    font-size: 25px;
+    text-shadow: 0px 3px 10px gray;
+}
+.banner table{
+    box-shadow: 0px 3px 30px gray;
+    border-color: gray;
+}
+.banner table td, th, tr{
+    border-width: 1px;
+}
